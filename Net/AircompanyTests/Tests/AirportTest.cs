@@ -46,7 +46,7 @@ namespace AirCompanyTests.Tests
         }
 
         [Test]
-        public void MyTest3()
+        public void SortByMaxLoadCapacity_Equals_Real_Data()
         {
             Airport airport = new Airport(Planes);
             airport = airport.SortByMaxLoadCapacity();
