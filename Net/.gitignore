@@ -1,6 +1,8 @@
 # Add any directories, files, or patterns you don't want to be tracked by version control
 /build
 /packages
+.vs/
+Net.backup/
 //Aircompany/vs
 /Aircompany/obj
 /Aircompany/bin
@@ -9,3 +11,4 @@
 *.suo
 /Aircompany.v12.suo
 /AircompanyTests.v12.suo
+
